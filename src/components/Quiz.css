@@ -1,0 +1,56 @@
+.App {
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+  }
+  
+  li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .selected {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .button {
+    background-color: #0dbc72;
+    border-radius: 20px;
+    width: 20%;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    border: none;
+  }
+
+  .button-disable {
+    border-radius: 20px;
+    width: 20%;
+    cursor: not-allowed;
+    padding: 10px;
+    background-color: #cccccc;
+    color: #666666;
+    border: none;
+  }
+
+  h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 1.2em;
+    color: #4CAF50;
+    font-weight: bold;
+  }
